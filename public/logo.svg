@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hull Superstore">
+  <rect width="64" height="64" rx="16" fill="#C2410C"/>
+  <!-- sun rays -->
+  <g stroke="#D9A521" stroke-width="2.4" stroke-linecap="round">
+    <line x1="32" y1="9" x2="32" y2="14"/>
+    <line x1="20.7" y1="13.7" x2="23.5" y2="17.8"/>
+    <line x1="43.3" y1="13.7" x2="40.5" y2="17.8"/>
+    <line x1="13.5" y1="23" x2="18" y2="25.2"/>
+    <line x1="50.5" y1="23" x2="46" y2="25.2"/>
+  </g>
+  <!-- sun -->
+  <circle cx="32" cy="25.5" r="6.5" fill="#D9A521"/>
+  <!-- basket body -->
+  <path d="M16 33h32l-3.4 16.2A4 4 0 0 1 40.7 52.4H23.3a4 4 0 0 1-3.9-3.2L16 33Z" fill="#FFF4E3"/>
+  <!-- basket weave -->
+  <g stroke="#15604A" stroke-width="2.2" stroke-linecap="round">
+    <line x1="25" y1="37" x2="22.8" y2="48"/>
+    <line x1="32" y1="37" x2="32" y2="48"/>
+    <line x1="39" y1="37" x2="41.2" y2="48"/>
+  </g>
+  <!-- basket rim -->
+  <rect x="14" y="30.5" width="36" height="5.2" rx="2.6" fill="#15604A"/>
+</svg>
