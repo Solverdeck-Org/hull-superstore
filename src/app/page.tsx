@@ -197,16 +197,15 @@ export default function Home() {
 					{/* Hero card */}
 					<div className="relative">
 						<div className="rounded-3xl border border-border bg-card p-2 shadow-xl shadow-primary/5">
-							<div className="grid aspect-[4/5] place-items-center rounded-[1.25rem] bg-gradient-to-br from-primary/90 via-terracotta to-green text-center text-primary-foreground">
-								<div className="px-8">
-									<ShoppingBasket className="mx-auto size-14 opacity-90" />
-									<p className="mt-5 font-heading text-2xl font-semibold">
-										Fresh stock, fair prices
-									</p>
-									<p className="mt-2 text-sm text-primary-foreground/85">
-										Photo of the storefront goes here
-									</p>
-								</div>
+							<div className="relative aspect-[4/5] overflow-hidden rounded-[1.25rem] bg-gradient-to-br from-primary/90 via-terracotta to-green">
+								<Image
+									src="/hero.jpg"
+									alt="Hull Superstore shopfront on Beverley Road, Hull"
+									fill
+									priority
+									sizes="(min-width: 768px) 40vw, 100vw"
+									className="object-cover"
+								/>
 							</div>
 						</div>
 						<div className="absolute -bottom-5 -left-5 rotate-[-4deg] rounded-2xl border border-border bg-card px-5 py-3 shadow-lg">
